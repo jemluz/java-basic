@@ -1,6 +1,6 @@
 package people;
 
-public class Main {
+public class TestPeople {
   public static void main(String[] args) {
     // instance of People class
     People peopleObjectP1 = new People();
@@ -20,5 +20,23 @@ public class Main {
 
     System.out.println(peopleObjectP2);
     System.out.println(peopleObjectP2.showMeThisPerson());
+
+    // instance of teacher
+    Teacher teacherObj1 = new Teacher();
+    // People teacherObj1 = new Teacher();
+
+    teacherObj1.setId("000.000.000-03");
+    teacherObj1.setName("Carlitos");
+    teacherObj1.setOld(28);
+    teacherObj1.setSalary("28.000");
+
+    // instance of student
+    Student studentObj1 = new Student();
+    // People teacherObj1 = new Teacher();
+
+    studentObj1.setId("000.000.000-03");
+    studentObj1.setName("Carlitos");
+    studentObj1.setOld(28);
+    studentObj1.setMatricullation("823741");
   }
 }

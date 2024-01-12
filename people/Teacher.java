@@ -12,4 +12,10 @@ public class Teacher extends People {
     this.salary = salary;
   }
 
+  // Polimorfism, override from People showMeThisPerson() implementation
+  // super is a reference to parent class
+  String showMeThisPerson() {
+    System.out.println(super.showMeThisPerson());
+    return "She/He is a Teacher!";
+  }
 }

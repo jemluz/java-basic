@@ -11,4 +11,10 @@ public class Student extends People {
   public void setMatricullation(String matricullation) {
     this.matricullation = matricullation;
   }
+
+  // Polimorfism, override from People showMeThisPerson() implementation
+  String showMeThisPerson() {
+    System.out.println(super.showMeThisPerson());
+    return "She/He is a student!";
+  }
 }

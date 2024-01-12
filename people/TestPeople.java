@@ -29,6 +29,7 @@ public class TestPeople {
     teacherObj1.setName("Carlitos");
     teacherObj1.setOld(28);
     teacherObj1.setSalary("28.000");
+    System.out.println(teacherObj1.showMeThisPerson());
 
     // instance of student
     Student studentObj1 = new Student();
@@ -36,7 +37,9 @@ public class TestPeople {
 
     studentObj1.setId("000.000.000-03");
     studentObj1.setName("Carlitos");
+    studentObj1.setName("Junin");
     studentObj1.setOld(28);
     studentObj1.setMatricullation("823741");
+    System.out.println(studentObj1.showMeThisPerson());
   }
 }

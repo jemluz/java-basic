@@ -21,6 +21,11 @@ public class TestPeople {
     System.out.println(peopleObjectP2);
     System.out.println(peopleObjectP2.showMeThisPerson());
 
+    People peopleObjectP3 = new People("jucarlos", 22, "000.000.000-03");
+
+    System.out.println(peopleObjectP2);
+    System.out.println(peopleObjectP2.showMeThisPerson());
+
     // instance of teacher
     Teacher teacherObj1 = new Teacher();
     // People teacherObj1 = new Teacher();
@@ -36,7 +41,6 @@ public class TestPeople {
     // People teacherObj1 = new Teacher();
 
     studentObj1.setId("000.000.000-03");
-    studentObj1.setName("Carlitos");
     studentObj1.setName("Junin");
     studentObj1.setOld(28);
     studentObj1.setMatricullation("823741");

@@ -8,6 +8,19 @@ public class People {
   int old;
   String id;
 
+  public People (String name, int old, String id) {
+    this.name = name;
+    this.old = old;
+    this.id = id;
+  }
+
+  public People (String name) {
+    this.name = name;
+  }
+
+  public People () {
+  }
+
   public String getId() {
     return id;
   }
